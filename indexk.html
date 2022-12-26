@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Kwitter™</title>
+        <script src="main.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="stylek.css">
+    </head>
+    <body>
+        <button id="logout" onclick="logout()" class="glyphicon glyphicon-logout btn btn-danger">log out</button>
+        <center>
+         <div id="container">
+            <h1>Kwitter™</h1>
+            <br>
+            <h3 id="user_name" class="color-white">Welcome !</h3>
+            <!--the spacing is for the user's name-->
+            <h6>Make a room and start chatting!</h6>
+            <input type="text" id="input_box" placeholder="add room">
+            <br>
+            <button onclick="addRoom()" id="button">Make room</button>
+            <br><br><br>
+            <div id="output">
+            </div>
+         </div>
+        </center>
+    </body>
+</html>
